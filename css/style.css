@@ -1022,6 +1022,16 @@ ul.social-buttons li:last-child {
 button,button:focus,button:hover,button:active {
 	outline: none!important;
 }
+/* ==========================================================================Hobby========================================================================== */
+.hobby {
+	font-size:15px;
+	color:#8c8c8c;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
 /* ==========================================================================Footer========================================================================== */
 footer a {
 	color:#a1a9b0;
@@ -1225,6 +1235,7 @@ ul.slides li {
 		height: 100%;
 	}
 }
+
 
 
 @media screen and (max-width:991px) {
