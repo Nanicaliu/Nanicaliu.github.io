@@ -95,8 +95,10 @@ he/*========================================================================*/
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    position:fixed;top:500px;
+    position:fixed;top:69px;
+    background: #fff
     display:none;
+    text-align: center;
 }
 
 #project #project-table {
