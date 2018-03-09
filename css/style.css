@@ -30,13 +30,20 @@ he/*========================================================================*/
 	
     margin-bottom: 30px;
     color: #fff;
-    background-color: #f3f5f8;
     padding-top: 10em;
     padding-bottom: 8em;
     height: auto;
     width: 100%;
-    background: #fff url('../img/bg1.png') no-repeat center center ;
+    background-color: rgba(32,26,22,.6);
+    
 }
+
+#projectheader.bg{
+	background: url('../img/bg1.png') no-repeat center center;
+}
+
+
+
 
 #project #pjt-btn {
 	display: inline-block;
@@ -93,12 +100,11 @@ he/*========================================================================*/
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 45px;
+    padding-bottom: 15px;
     position:fixed;top:69px;
-    background: #fff
-    display:none;
-    text-align: center;
+    background-color: #fff;
+    
 }
 
 #project #project-table {
@@ -134,6 +140,18 @@ he/*========================================================================*/
 #project img{
 	width: 100%;
 }
+
+#project #content_line{
+	font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4px;
+    background: url(../img/h1-bg.png) no-repeat center bottom;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
 
 #color-overlay{
 	position: absolute;
