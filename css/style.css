@@ -17,6 +17,16 @@ he/*========================================================================*/
     background: #fff url('../img/preloader.gif') no-repeat center center;
 }
 
+#projectheader {
+	padding: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #f3f5f8;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    height: 50em;
+    width: 100%;
+}
 
 
 
