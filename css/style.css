@@ -17,9 +17,8 @@ he/*========================================================================*/
     background: #fff url('../img/preloader.gif') no-repeat center center;
 }
 
-#project{
+#project {
 	font-size: 14px;
-    
     color: #353535;
     letter-spacing: 1px;
     padding-bottom: 30px;
@@ -44,6 +43,16 @@ he/*========================================================================*/
     padding: 20px 30px;
     color: #fff;
     border: solid 1px #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#project #link-btn {
+	display: inline-block;
+    padding: 20px 30px;
+    color: #E04343;
+    border: solid 1px #E04343;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
@@ -83,6 +92,12 @@ he/*========================================================================*/
 	padding-top: 20px;
 }
 
+#project #btn-position {
+	padding: 30px;
+	text-align: center;
+	
+}
+
 #project #project-text-style{
 	padding-top: 30px;
 	font-size: 16px;
@@ -92,6 +107,9 @@ he/*========================================================================*/
     font-weight: bold;
 }
 
+#project img{
+	width: 100%;
+}
 
 #color-overlay{
 	position: absolute;
