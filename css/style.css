@@ -17,15 +17,36 @@ he/*========================================================================*/
     background: #fff url('../img/preloader.gif') no-repeat center center;
 }
 
-#projectheader {
-	padding: 30px;
+#project{
+	font-size: 14px;
+    
+    color: #353535;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+}
+
+#projectheader.jumbotron {
+	
     margin-bottom: 30px;
-    color: inherit;
+    color: #fff;
     background-color: #f3f5f8;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    height: 50em;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    height: 40em;
     width: 100%;
+    background: #fff url('../img/bg1.png') no-repeat center center ;
+}
+
+#color-overlay{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(32,26,22,.7);
+    z-index: 99;
 }
 
 
