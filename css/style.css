@@ -85,7 +85,18 @@ he/*========================================================================*/
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    display:fixed;top:100px;
+}
+
+#project #project-elevator-container2 {
+	width: 1170px;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:fixed;top:500px;
+    display:none;
 }
 
 #project #project-table {
