@@ -33,11 +33,45 @@ he/*========================================================================*/
     color: #fff;
     background-color: #f3f5f8;
     padding-top: 10em;
-    padding-bottom: 10em;
-    height: 40em;
+    padding-bottom: 8em;
+    height: auto;
     width: 100%;
     background: #fff url('../img/bg1.png') no-repeat center center ;
 }
+
+#project #pjt-btn {
+	display: inline-block;
+    padding: 20px 30px;
+    color: #fff;
+    border: solid 1px #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#project #project-container {
+	width: 1170px;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#project #project-table {
+
+	text-align: center;
+	width: 100%;
+    height: auto;
+    overflow: auto;
+    border: 1px solid #E7E7E7;
+
+}
+
+#project #big-box {
+	padding: 30px;
+	padding-top: 20px;
+}
+
 
 #color-overlay{
 	position: absolute;
@@ -638,6 +672,10 @@ h1.arrow span {
 }
 .about-text {
 	padding:20px 50px 25px 50px;
+}
+
+.project-text {
+	padding:0px 0px 5px 0px;
 }
 .about-text h1 {
 	text-transform:uppercase;
