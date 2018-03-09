@@ -49,17 +49,28 @@ he/*========================================================================*/
     letter-spacing: 1px;
 }
 
-#project #project-container {
+#project #project-table-container {
 	width: 1170px;
+	height:20em;
 	margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
 
+#project #project-content-container {
+	width: 1170px;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
 #project #project-table {
 
-	text-align: center;
+	text-align: left;
 	width: 100%;
     height: auto;
     overflow: auto;
@@ -70,6 +81,15 @@ he/*========================================================================*/
 #project #big-box {
 	padding: 30px;
 	padding-top: 20px;
+}
+
+#project #project-text-style{
+	padding-top: 30px;
+	font-size: 16px;
+    text-transform: uppercase;
+    color: #353535;
+    letter-spacing: 4px;
+    font-weight: bold;
 }
 
 
